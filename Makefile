@@ -1,6 +1,6 @@
 INCLUDE_PATH = raylib/
 LIBRARY_PATH = libraylib.a
-SOURCE_FILES = main.cpp
+SOURCE_FILES = main.cpp source/*.cpp
 ARGUMENTS =
 PRECOMPILED_HEADER_PATH = source/include/common
 PROGRAM_NAME = survival
