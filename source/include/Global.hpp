@@ -10,5 +10,5 @@ namespace Global
         Vector2 origin;
     };
 
-    constexpr uint8_t GAME_SIZE{4};
+    constexpr uint8_t GAME_SIZE{5};
 };
