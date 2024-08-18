@@ -1,0 +1,9 @@
+{
+    "files.exclude": {
+        ".gitignore": false,
+        "LICENSE": true,
+        "README.md": true,
+        "raylib": true,
+        "survival": true
+    }
+}
