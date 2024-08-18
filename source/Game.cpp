@@ -1,11 +1,21 @@
 #include "include/Game.hpp"
 
+Game::Game()
+{
+    player = new Player;
+}
+
+Game::~Game()
+{
+    delete player;
+}
+
 void Game::Draw()
 {
-    DrawRectangle(100, 100, 100, 100, RED);
+    player->Draw();
 }
 
 void Game::Update()
 {
-
+    player->Update();
 }
